@@ -1,4 +1,4 @@
 
 1. When I run a program, its parent process is the shell. In my case, I use the tcsh shell.
-2. The parent process of that process would be launchd for me, because I am on MacOS. This is the process that manages all the other system and user processes.
-3. The parent of the launchd process would be the kernel process. This starts and manages system processes when I first boot up my computer.
+2. The parent process of the shell is the init process. Since I use MacOS, I believe for me this process is actually the launchd process.
+3. The parent of the init process would be "Process 0" or the kernel's process. 
