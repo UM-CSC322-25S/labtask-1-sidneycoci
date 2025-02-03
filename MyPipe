@@ -1,1 +1,1 @@
-ls -a | grep -vE '^(\.|\.\.)$' | wc -l
+ls -A | wc -1
